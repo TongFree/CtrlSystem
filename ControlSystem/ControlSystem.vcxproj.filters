@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{926162dd-87d3-43d4-a37a-1f1366a08333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Src\Source Files\View">
+      <UniqueIdentifier>{cdb8f2b2-ddf4-4e4b-b19b-2b85721ab5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Source Files\Comm">
+      <UniqueIdentifier>{ca6d85ea-bfeb-4389-90eb-6535ccfeee12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Source Files\File">
+      <UniqueIdentifier>{b8f6e2ae-7d77-4529-8d26-9c74309fdd08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Src\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Src\Header Files\View">
+      <UniqueIdentifier>{78ffb315-b3f1-4732-b527-646084ae249c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Header Files\Comm">
+      <UniqueIdentifier>{3fba29e7-6b5b-4924-b620-65a7c2e5b0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Header Files\File">
+      <UniqueIdentifier>{47932827-18a9-4e4c-b7f1-62f5568115e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Res">
+      <UniqueIdentifier>{32a68c66-b4ad-47a1-97fc-ca95f18bfd67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Header Files\Dig">
+      <UniqueIdentifier>{ead1a084-ed27-4c65-a9ec-1e9b1afe107d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Source Files\Dig">
+      <UniqueIdentifier>{01b39845-8ef7-4019-bd9d-a307e418e0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Header Files\List">
+      <UniqueIdentifier>{2fe7e6a0-645b-45e1-88f2-324cc97b2e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Source Files\List">
+      <UniqueIdentifier>{ab123de2-60f9-4ea3-927a-3dd6844cedc7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ControlSystem.h">
+      <Filter>Src\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Src\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlSystemDoc.h">
+      <Filter>Src\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlSystemView.h">
+      <Filter>Src\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CnComm.h">
+      <Filter>Src\Header Files\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameWork.h">
+      <Filter>Src\Header Files\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoFile.h">
+      <Filter>Src\Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="CApplication.h">
+      <Filter>Src\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBorders.h">
+      <Filter>Res</Filter>
+    </ClInclude>
+    <ClInclude Include="CFont0.h">
+      <Filter>Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Cnterior.h">
+      <Filter>Res</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Src\Header Files\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Src\Header Files\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Res</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Src\Header Files\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="Markup.h">
+      <Filter>Src\Header Files\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="TestView.h">
+      <Filter>Src\Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAdd.h">
+      <Filter>Src\Header Files\Dig</Filter>
+    </ClInclude>
+    <ClInclude Include="AdmainView.h">
+      <Filter>Src\Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="TestInputDetectionChannel.h">
+      <Filter>Src\Header Files\Dig</Filter>
+    </ClInclude>
+    <ClInclude Include="TestItemAdd.h">
+      <Filter>Src\Header Files\Dig</Filter>
+    </ClInclude>
+    <ClInclude Include="TestItemAnalogSignal.h">
+      <Filter>Src\Header Files\Dig</Filter>
+    </ClInclude>
+    <ClInclude Include="TestItemCurrent.h">
+      <Filter>Src\Header Files\Dig</Filter>
+    </ClInclude>
+    <ClInclude Include="TestItemElectronicLoad.h">
+      <Filter>Src\Header Files\Dig</Filter>
+    </ClInclude>
+    <ClInclude Include="TestItemJig.h">
+      <Filter>Src\Header Files\Dig</Filter>
+    </ClInclude>
+    <ClInclude Include="TestItemMulti.h">
+      <Filter>Src\Header Files\Dig</Filter>
+    </ClInclude>
+    <ClInclude Include="TestItemResistance.h">
+      <Filter>Src\Header Files\Dig</Filter>
+    </ClInclude>
+    <ClInclude Include="TestItemSignalGenerator.h">
+      <Filter>Src\Header Files\Dig</Filter>
+    </ClInclude>
+    <ClInclude Include="TestItemSwitch.h">
+      <Filter>Src\Header Files\Dig</Filter>
+    </ClInclude>
+    <ClInclude Include="TestItemToolChannel.h">
+      <Filter>Src\Header Files\Dig</Filter>
+    </ClInclude>
+    <ClInclude Include="TestItemTriState.h">
+      <Filter>Src\Header Files\Dig</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductItem.h">
+      <Filter>Src\Header Files\Dig</Filter>
+    </ClInclude>
+    <ClInclude Include="TestItemView.h">
+      <Filter>Src\Header Files\Dig</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductInfo.h">
+      <Filter>Src\Header Files\List</Filter>
+    </ClInclude>
+    <ClInclude Include="TestInfo.h">
+      <Filter>Src\Header Files\List</Filter>
+    </ClInclude>
+    <ClInclude Include="TestItemInfo.h">
+      <Filter>Src\Header Files\List</Filter>
+    </ClInclude>
+    <ClInclude Include="TestRecord.h">
+      <Filter>Src\Header Files\List</Filter>
+    </ClInclude>
+    <ClInclude Include="FileComm.h">
+      <Filter>Src\Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="uuid.h">
+      <Filter>Src\Header Files\Comm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ControlSystem.cpp">
+      <Filter>Src\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Src\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlSystemDoc.cpp">
+      <Filter>Src\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlSystemView.cpp">
+      <Filter>Src\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoFile.cpp">
+      <Filter>Src\Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup.cpp">
+      <Filter>Src\Source Files\Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="TestView.cpp">
+      <Filter>Src\Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="AdmainView.cpp">
+      <Filter>Src\Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="TestInputDetectionChannel.cpp">
+      <Filter>Src\Source Files\Dig</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItemAdd.cpp">
+      <Filter>Src\Source Files\Dig</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItemAnalogSignal.cpp">
+      <Filter>Src\Source Files\Dig</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItemCurrent.cpp">
+      <Filter>Src\Source Files\Dig</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItemElectronicLoad.cpp">
+      <Filter>Src\Source Files\Dig</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItemJig.cpp">
+      <Filter>Src\Source Files\Dig</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItemMulti.cpp">
+      <Filter>Src\Source Files\Dig</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItemResistance.cpp">
+      <Filter>Src\Source Files\Dig</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItemSignalGenerator.cpp">
+      <Filter>Src\Source Files\Dig</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItemSwitch.cpp">
+      <Filter>Src\Source Files\Dig</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItemToolChannel.cpp">
+      <Filter>Src\Source Files\Dig</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItemTriState.cpp">
+      <Filter>Src\Source Files\Dig</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAdd.cpp">
+      <Filter>Src\Source Files\Dig</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductItem.cpp">
+      <Filter>Src\Source Files\Dig</Filter>
+    </ClCompile>
+    <ClCompile Include="TestInfo.cpp">
+      <Filter>Src\Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItemInfo.cpp">
+      <Filter>Src\Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="TestRecord.cpp">
+      <Filter>Src\Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="FileComm.cpp">
+      <Filter>Src\Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItemView.cpp">
+      <Filter>Src\Source Files\Dig</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductInfo.cpp">
+      <Filter>Src\Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="uuid.cpp">
+      <Filter>Src\Source Files\Comm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ControlSystem.rc">
+      <Filter>Src\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ControlSystem.rc2">
+      <Filter>Src\Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ControlSystemDoc.ico">
+      <Filter>Src\Resource Files</Filter>
+    </Image>
+    <Image Include="res\ControlSystem.ico">
+      <Filter>Src\Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Src\Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>Src\Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap4.bmp">
+      <Filter>Src\Resource Files</Filter>
+    </Image>
+    <Image Include="res\BUTTON.bmp">
+      <Filter>Src\Resource Files</Filter>
+    </Image>
+    <Image Include="res\re.ico">
+      <Filter>Src\Resource Files</Filter>
+    </Image>
+    <Image Include="res\user.ico">
+      <Filter>Src\Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Src\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
